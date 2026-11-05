@@ -8,6 +8,7 @@ Las capturas están organizadas por capa y por requisito del taller. Los archivo
 
 - `01-bronze/dag-rss-bronze-tareas-exitosas.jpeg`: ejecución exitosa del DAG Bronze.
 - `01-bronze/s3-tres-fuentes-bronze.jpeg`: estructura S3 con las tres fuentes RSS.
+- `01-bronze/bronze-manifest-lote-completo.png`: manifiesto resumido con lote, estado, fuentes, conteos, hashes y rutas.
 
 ## 2. Silver
 
@@ -18,6 +19,7 @@ Las capturas están organizadas por capa y por requisito del taller. Los archivo
 - `02-silver/parquet-relacion-fuentes-secciones.jpeg`: archivo de relación entre noticias, fuentes y secciones.
 - `02-silver/puntero-version-vigente.jpeg`: puntero `control/silver/current.json`.
 - `02-silver/objeto-registros-rechazados.jpeg`: objeto Parquet en cuarentena.
+- `02-silver/silver-registro-rechazado-con-motivo.png`: rechazo con `batch_id`, fuente, motivo y datos originales.
 
 ## 3. Amazon Comprehend y caché persistente
 
@@ -42,6 +44,7 @@ Las capturas están organizadas por capa y por requisito del taller. Los archivo
 ## 5. AWS Glue y Amazon Athena
 
 - `05-glue-athena/glue-data-catalog-tablas.jpeg`: tablas registradas en el catálogo.
+- `05-glue-athena/glue-siete-tablas-release-final.png`: siete tablas del release final obtenidas desde Glue mediante el rol EC2.
 - `05-glue-athena/schema-news-daily-particionado.jpeg`: esquema y clave de partición de `news_daily`.
 - `05-glue-athena/control-catalogo-current-json.jpeg`: control del catálogo.
 - `05-glue-athena/control-release-vigente-current-json.jpeg`: versión publicada vigente.
@@ -74,8 +77,7 @@ Las capturas están organizadas por capa y por requisito del taller. Los archivo
 - `07-orquestacion-4-6/pipeline-integral-tareas-verdes.jpeg`: ejecución completa con tareas exitosas.
 - `07-orquestacion-4-6/pipeline-integral-ejecucion-exitosa.jpeg`: vista complementaria de la ejecución integral.
 
-## Cobertura pendiente recomendada
+## Cobertura
 
-- Capturar la lista **final** de las siete tablas de Glue correspondientes al release más reciente. La evidencia actual del catálogo pertenece a una versión anterior y no muestra claramente las siete tablas finales en una sola vista.
-- Capturar el contenido de `manifest.json` y del archivo de metadatos de un lote Bronze. La estructura de las tres fuentes sí está demostrada, pero esta captura fortalecería la trazabilidad del lote.
+Las evidencias incluyen los escenarios funcionales, de calidad, incrementalidad, idempotencia, particionamiento, reproceso y recuperación solicitados para el Data Lake.
 

@@ -54,6 +54,8 @@ sudo docker compose up -d
 sudo docker compose ps
 ```
 
+La guía completa, incluidos recursos AWS, permisos, verificación, pausa y eliminación, está en [docs/DESPLIEGUE.md](docs/DESPLIEGUE.md).
+
 5. Abrir Airflow mediante túnel SSH, nunca exponiendo el puerto 8080 públicamente:
 
 ```powershell
@@ -126,4 +128,5 @@ Después detener, no terminar, la EC2. EBS y S3 continúan almacenados y pueden 
 - [Validaciones 4.5 y 4.6](docs/VALIDACIONES.md)
 - [Costos](docs/COSTOS.md)
 - [Índice de evidencias](docs/EVIDENCIAS.md)
+- [Despliegue reproducible](docs/DESPLIEGUE.md)
 
