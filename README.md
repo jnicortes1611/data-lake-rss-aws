@@ -129,4 +129,9 @@ Después detener, no terminar, la EC2. EBS y S3 continúan almacenados y pueden 
 - [Costos](docs/COSTOS.md)
 - [Índice de evidencias](docs/EVIDENCIAS.md)
 - [Despliegue reproducible](docs/DESPLIEGUE.md)
+- [Demostración documentada](docs/DEMOSTRACION.md)
+
+## Demostración respaldada por evidencias
+
+La ingesta completa, las consultas en Athena, el reproceso idempotente, el fallo controlado, la recuperación y la limitación de Comprehend están reunidos en [docs/DEMOSTRACION.md](docs/DEMOSTRACION.md). Las capturas corresponden a ejecuciones reales y cada escenario se puede repetir mediante el DAG `rss_pipeline`.
 
