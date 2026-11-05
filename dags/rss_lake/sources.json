@@ -1,0 +1,5 @@
+[
+  {"source_id":"eltiempo_colombia","medio":"El Tiempo","seccion":"colombia","url":"https://www.eltiempo.com/rss/colombia.xml"},
+  {"source_id":"eltiempo_mundo","medio":"El Tiempo","seccion":"mundo","url":"https://www.eltiempo.com/rss/mundo.xml"},
+  {"source_id":"eltiempo_bogota","medio":"El Tiempo","seccion":"bogota","url":"https://www.eltiempo.com/rss/bogota.xml"}
+]
