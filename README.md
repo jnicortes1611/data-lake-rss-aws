@@ -1,5 +1,9 @@
 # Data Lake RSS en AWS
 
+Integrantes:
+-  Juan Nicolás Cortés 
+- Juan José Ramírez
+
 Pipeline académico de extremo a extremo para noticias RSS con arquitectura medallón en AWS. Airflow en EC2 orquesta la ingesta, transformación, enriquecimiento, publicación y validación sin intervención manual entre etapas.
 
 ## Arquitectura
